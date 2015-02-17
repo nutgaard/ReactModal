@@ -2,6 +2,16 @@
   "name": "ReactModal",
   "version": "0.0.1",
   "description": "React modal component",
+  "homepage": "https://github.com/nutgaard/ReactModal",
+  "bugs": "https://github.com/nutgaard/ReactModal/issues",
+  "author": {
+    "name": "Nicklas Utgaard",
+    "email": "nutgaard@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nutgaard/ReactModal"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
