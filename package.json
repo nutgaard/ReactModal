@@ -1,0 +1,20 @@
+{
+  "name": "ReactModal",
+  "version": "0.0.1",
+  "description": "React modal component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "modal",
+    "wai",
+    "aria",
+    "wcag",
+    "uu"
+  ],
+  "author": "Nicklas Utgaard",
+  "license": "MIT",
+  "devDependencies": {}
+}
