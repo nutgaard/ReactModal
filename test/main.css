@@ -1,3 +1,8 @@
+body.modal-open {
+    overflow: hidden;
+    height: 100%;
+}
+
 .ReactModalContainer .backdrop {
     position: fixed;
     top: 0;

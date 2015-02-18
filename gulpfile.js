@@ -13,7 +13,7 @@ function build(file, watch, debug) {
     var props = watchify.args;
     props.entries = [scriptDir + '/' + file];
     props.debug = debug;
-    props.standalone = 'Modal';
+    props.standalone = file === 'index.js' ? 'Modal' : file.split(".")[0];
 
     globalShim.configure({
         'react': 'react'
@@ -44,9 +44,11 @@ function build(file, watch, debug) {
 }
 
 gulp.task('dev', function () {
-    return build('index.js', true, true);
+    build('index.js', true, true);
+    build('MyInnerComponent.js', true, true);
 })
 
 gulp.task('default', function () {
-    return build('index.js', false, false);
+    build('index.js', false, false);
+    build('MyInnerComponent.js', false, false);
 });
