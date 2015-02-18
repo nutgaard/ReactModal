@@ -1,13 +1,10 @@
 {
   "name": "ReactModal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React modal component",
   "homepage": "https://github.com/nutgaard/ReactModal",
   "bugs": "https://github.com/nutgaard/ReactModal/issues",
-  "author": {
-    "name": "Nicklas Utgaard",
-    "email": "nutgaard@gmail.com"
-  },
+  "author": "Nicklas Utgaard",
   "repository": {
     "type": "git",
     "url": "https://github.com/nutgaard/ReactModal"
@@ -24,7 +21,6 @@
     "wcag",
     "uu"
   ],
-  "author": "Nicklas Utgaard",
   "license": "MIT",
   "devDependencies": {
     "browserify": "^8.1.3",
