@@ -117,8 +117,13 @@
 
 <script type="text/jsx">
     Component = React.render(
-            <Modal>
-                <input type="text" placeholder="test" />
+            <Modal
+                    title="Nice Modal Title" showTitle="true" titleTag="h4.awesome"
+                    description={<p>And this is the awesome description</p>} showDescription="true" descriptionTag="div.description">
+                <label>
+                    <span>Text-label</span>
+                    <input type="text" placeholder="test"/>
+                </label>
                 <MyInnerComponent />
             </Modal>
             , document.getElementById("modal"));

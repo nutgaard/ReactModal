@@ -7,6 +7,17 @@ module.exports = React.createClass({
             isOpen: false
         };
     },
+    getDefaultProps: function() {
+        return {
+            title: 'Modal window',
+            showTitle: false,
+            titleTag: 'h1',
+            description: '',
+            showDescription: false,
+            descriptionTag: 'p'
+
+        };
+    },
     componentDidMount: function () {
         if (typeof this.portalElement === 'undefined') {
             this.portalElement = document.createElement('div');
